@@ -30,5 +30,12 @@ git checkout -- give the details about the files or information of the files (li
 git remote -v -- endpoint details where the file are pushing through http,token,ssh
 git log -oneline -- gives the information of commit
 
+recent commit always ontaint the previous commt information
+
+if we just commited and not pushed also git checkout <commit> gives the recent information
+
+if we delete a recent commit , recent commit only get delete 
+not other.
+
 
 
