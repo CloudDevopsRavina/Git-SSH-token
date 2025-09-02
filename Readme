@@ -26,6 +26,9 @@ ravin@Ravina MINGW64 ~/DevOps/Githubpractice/Git-SSH-token (main)
 
 git push
 git pull
+git checkout -- give the details about the files or information of the files (like versioning details)
+git remote -v -- endpoint details where the file are pushing through http,token,ssh
+git log -oneline -- gives the information of commit
 
 
 
