@@ -1,0 +1,31 @@
+### To generate SSH Key
+
+ssh-keygen (give this command into your terminal)
+
+copy the publickey id_rsa.pub
+
+paste into github ssh keys 
+
+settings-->ssh and GPG keys--> Add new ssh key and give any name and paste it your publickey over there 
+
+Git clone <paste the ssh url>
+*When we clone SSH url and create a files and will push those file , it will use ssh endpoint.
+Ex:-ravin@Ravina MINGW64 ~/DevOps/Githubpractice/Git-SSH-token (main)
+$ git commit -m "both file"
+[main (root-commit) 52a21a6] both file
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Readme
+ create mode 100644 file1
+
+ravin@Ravina MINGW64 ~/DevOps/Githubpractice/Git-SSH-token (main)
+$ git remote -v
+origin  git@github.com:CloudDevopsRavina/Git-SSH-token.git (fetch)
+origin  git@github.com:CloudDevopsRavina/Git-SSH-token.git (push)
+
+ravin@Ravina MINGW64 ~/DevOps/Githubpractice/Git-SSH-token (main)
+
+git push
+git pull
+
+
+
